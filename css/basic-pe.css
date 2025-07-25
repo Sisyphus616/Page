@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Times';
+    src: url('../source/font/times.ttf');
+}
+@font-face {
+    font-family: 'lucon';
+    src: url('../source/font/lucon.ttf');
+}
+
+.index-body{
+    height: 98%;
+    width: 98%;
+    font-family: 'Times';
+}
+
+.index{
+    height: 78%;
+    width: 88%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar{
+    height: 5%;
+    width: 100%;
+    font-family: 'lucon';
+    position: relative;
+    display: flex;
+    align-items: center;
+    a{
+        margin-right: 10%;
+        text-decoration: none;
+        color: #7f7f7f;
+    }
+    a:hover{
+        transition: 0.3s;
+        color: #cfcfcf;
+    }
+    border-bottom: 1px solid #ddd; /* Added border for better visibility */
+}
+.index-container{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    .abstract{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .avatar{
+            margin-bottom: 30px;
+            width: 80%;
+            border-radius: 40%;
+            border: 1px solid #770077;
+        }
+        p{
+            font-size: 0.9em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: 'Times';
+        }
+        .name{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-family: 'lucon';
+        }
+        .li{
+            font-size: 0.9em;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            color: #3f3f3f;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+            a{
+                text-decoration: none;
+                color: #3f3f3f;
+            }
+            a:hover{
+                transition: 0.3s;
+                color: #cfcfcf;
+            }
+        }
+    }
+    .content{
+        width: 80%;
+        height: 100%;
+        margin-left: 5%;
+        font-size: 1.1em;
+        h2{
+            font-family: 'lucon';
+        }
+        a{
+            text-decoration: none;
+            color: #339fcf;
+            font-family: 'lucon';
+            font-weight: bold;
+        }
+    }
+}
+.footer{
+    height: 20%;
+    background-color: #efefef;
+    a{
+        text-decoration: none;
+        color: #5f5f5f;
+        font-family: 'lucon';
+        margin-right: 20px;
+    }
+    a:hover{
+        transition: 0.3s;
+        color: #afafaf;
+    }
+}
